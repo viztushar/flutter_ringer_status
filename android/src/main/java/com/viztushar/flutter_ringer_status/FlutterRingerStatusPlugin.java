@@ -88,5 +88,6 @@ public class FlutterRingerStatusPlugin implements MethodCallHandler {
     else {
       result.notImplemented();
     }
+	result.success("done");
   }
 }
